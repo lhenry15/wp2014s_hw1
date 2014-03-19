@@ -35,8 +35,8 @@ ul.listSet {list-style: disc; margin-left: 25px;font:1.3em/140% Arial;letter-spa
 .page .sidebar_right { width:758px; float:right; padding:0; line-height:120%; overflow: hidden; }
 .page .oneCol .sidebar_right { width: auto; float: none; }
 .page .sidebar_right .crumb { font-size:1.3em; line-height:120%; margin:0 0 5px; }
-.page .sidebar_right .pagetitle { border-bottom: 3px solid #006400; 0 bottom repeat-x; position:relative; margin:0 0 15px;padding:0 150px 0 0; }
-.page .sidebar_right .pagetitle h2.title { font:bold 2.2em/110% arial; color:#006400; background:#fff; display:inline;  }
+.page .sidebar_right .pagetitle { background:url(../images/pagetitle01.jpg) 0 bottom repeat-x; position:relative; margin:0 0 15px;padding:0 150px 0 0; }
+.page .sidebar_right .pagetitle h2.title { font:bold 2.2em/110% arial; color:#28427f; background:#fff; display:inline;  }
 .page .sidebar_right .pagetitle .font_change { position:absolute; top:0px; right:0px; width:150px; }
 .page .sidebar_right .pagetitle .font_change li { float:left; margin:0 3px 0 0; }
 .page .sidebar_right .pagetitle .font_change img { float:left; margin:0 3px 0 0; }
@@ -125,11 +125,11 @@ table.table_a .b20 a:hover {color:#ADFF2F;}
 table.table_a td, table.table_a th { border-width:0; padding:5px; margin:0 0 10px; border-color:#dadada; border-style:solid; border-width:0 1px 1px 0; }
 table.table_a tr.color { background:#B0E0E6; }
 table.table_a tr.co{ background:#AFEEEE; }
-table.table_a th { color:#E6E6FA; font-weight:bold; text-align:center; background:#008000;  }
+table.table_a th { color:#fff; font-weight:bold; text-align:center; background:#42588f;  }
 table.table_b { width: 100%; color:#385b6b; border-color:#dadada; border-style:solid; border-width:1px 0 0 1px; margin:0 0 15px; }
 table.table_b a { color:#385b6b; }
 table.table_b a:hover { color:#fe5f00; }
-table.table_b td, table.table_b th { padding:5px;border-color:#dadada; border-radius:solid; border-width:0 1px 1px 0; }
+table.table_b td, table.table_b th { padding:5px;border-color:#dadada; border-style:solid; border-width:0 1px 1px 0; }
 table.table_b tr.color { background:#FF0000; }
 table.table_b th {color:#385b6b; font-weight:bold; text-align:center; background:#edf2f1; ; }
 table.table_b input, table.table_b img { vertical-align: middle; }
