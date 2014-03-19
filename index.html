@@ -1,0 +1,955 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="zh-TW">
+
+  <head> 
+
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>財政部稅務入口網統一發票管理</title>
+
+    <meta name="pagebase" content="etwmain"/>
+
+    <meta name="funccode" content="ETW183W1"/>
+
+	<meta name="DC.Title" content="統一發票管理"/>
+
+	<meta name="DC.Subject" content="統一發票管理"/>
+
+	<meta name="Keywords" content="統一發票管理"/>
+
+	<meta name="DC.Creator" content="財政部財政資訊中心"/>
+
+	<meta name="DC.Publisher" content="財政部財政資訊中心"/>
+
+	<meta name="DC.Identifier" content="A07100000D">
+
+	<meta name="DC.Type" content="文字">
+
+	<meta name="DC.Date" content="2012-10-22 00:00:00.000" />
+
+	<meta name="DC.coverage.t.min" content="2012-10-22 00:00:00.000" />
+
+	<meta name="DC.coverage.t.max" content="2012-10-22 00:00:00.000" />
+
+	<meta name="Category.Theme" content="540">
+
+	<meta name="Category.Cake" content="450">
+
+	<meta name="Category.Service" content="641">
+
+	<meta name="DC.Format" content="text/html">
+
+	<meta name="DC.Contributor" content="統一發票管理">
+
+	<meta name="DC.Relation" content="無">
+
+	<meta name="DC.Source" content="統一發票管理">
+
+	<meta name="DC.Language" content="中文">
+
+	<meta name="DC.Coverage" content="">
+
+	<meta name="DC.Rights" content="統一發票管理">
+
+	<meta name="DC.Description" content="本網站目的在公佈財政部對外相關訊息">
+	
+
+	<link type="text/css" rel="stylesheet" href="page.css" />
+
+	<!-- include.jsp start -->
+
+	<link type="text/css" rel="stylesheet" href="global.css" />    
+
+    <link type="text/css" rel="stylesheet" href="simpletree.css" />
+
+    <link type="text/css" rel="stylesheet" href="jquery-ui-1.8.2.custom.css" />
+
+    <link type="text/css" rel="stylesheet" href="ui.jqgrid.css" />
+
+    <link type="text/css" rel="stylesheet" href="demo_table_jui.css"/>
+
+    <link type="text/css" rel="stylesheet" href="ui.dynatree.css"/>
+
+    <link type="text/css" rel="stylesheet" href="jquery.jdMenu.css"/>
+
+    <link type="text/css" rel="stylesheet" href="jquery.jqplot.min.css"/>
+
+    <link type="text/css" rel="stylesheet" href="jquery.lightbox-0.5.css"/>
+
+    <link type="text/css" rel="stylesheet" href="ui.spinner.css"/>
+
+    <link type="text/css" rel="stylesheet" href="jquery.treeview.css"/>
+	
+
+	<link type="text/css" rel="stylesheet" href="slideShow.css" />
+
+	<link type="text/css" rel="stylesheet" href="jquery.simplyscroll.css" />
+
+	
+
+	
+
+	<script type="text/javascript" language="javascript">
+
+	$(document).ready( function(){
+
+		try{
+
+			top.location.hostname;
+
+			if (top.location.hostname != window.location.hostname) {
+
+				top.location.href = window.location.href;
+
+			}
+
+		}catch(e){
+
+			top.location.href = window.location.href;
+
+		}
+
+	    $("body").click(function () {removeSubMenu();});
+
+		//$(".menu .bd li, .info .bd li").hover(
+
+		$(".menu .bd li,").hover(		
+
+			function() {
+
+			    $(this).addClass("hover");
+
+			    //detectSubMenu(this);
+
+			}, 
+
+			function() { 
+
+			    $(this).removeClass("hover");
+
+			}
+
+		);
+
+		
+
+		$obj=$('#banner84').lofJSidernews({mainWidth:530,navigatorHeight:15,navigatorWidth:70,navPosition:'horizontal'});
+
+		
+
+	    // only className active, get info.
+
+	    detectMultiTabBlock();
+
+	    getSingleTabBlock();
+
+	    
+
+	    $("div.font_change a").click(function(){
+
+	    	
+
+	    	var fontSize = $('div.content ').css('font-size').replace('px','');
+
+    		fontSize = 10;
+
+    		fontSize = parseInt(fontSize,10);
+
+	        if (this.className == 'font01') {
+
+	            fontSize -= 2;
+
+	        } else if (this.className == 'font03') {
+
+	            fontSize += 4;
+
+	        } else if (this.className == 'font02') {
+
+	            fontSize == 10;
+
+ 		    }
+
+	    	$('div.content ').css('font-size', fontSize + 'px');
+
+	    });
+
+	    
+
+	    $("div.prgoback a").click(function(){
+
+            if (this.className == 'font01') {
+
+            	window.print();
+
+            } else if (this.className == 'font02') {
+
+				$(this).attr("href","javascript:void(0);");
+
+            	history.go(-1);		
+
+            }
+
+           
+
+        });
+
+	    
+
+	});
+
+	</script>
+
+
+
+<noscript>
+
+您的瀏覽器不支援 JavaScript 語法,但是並不影響您獲取本網站的內容
+
+</noscript>
+
+<!-- include.jsp end -->
+
+</head>
+
+  
+
+  <body class="page size_m">
+
+	<div class="wrapper"> 
+
+	    <!--Header Start-->
+
+	    <div class="header clearfix">
+
+	        
+
+		<div class="kv"><object tabIndex="-1"
+
+			data="./image/header.swf"
+
+			type="application/x-shockwave-flash" width="100%" height="100%"
+
+			wmode="transparent">
+
+			<param name="movie"
+
+				value="./image/header.swf" />
+
+			<param name="quality" value="high" />
+
+			<param name="wmode" value="transparent" />
+
+			<embed
+
+				src="./image/header.swf"
+
+				width="100%" height="100%" quality="high" wmode="transparent">
+
+			財政部稅務入口網形像動畫</embed> </object></div>
+
+	
+
+
+
+	<h1 class="logo" title="網站名稱"><a
+
+		href="http://www.etax.nat.gov.tw/etwmain/?orgId=FDC" title="回首頁"> <img
+
+		src="./image/logo.png"
+
+		class="fixpng" alt="財政部稅務入口網"
+
+		title="財政部稅務入口網"> <span class="none">回首頁</span>
+
+	</a></h1>
+
+	<div class="header_nav01"><a class="accesskey" href="#"
+
+		accesskey="U" title="上方主選單區">:::</a>
+
+	<ul>
+
+		
+
+			<li><a href="/etwmain/front/ETW118W/VIEW/410"
+
+				 title="常見問題">常見問題</a>│</li>
+
+		
+
+			<li><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/644/7346221686716428757 "
+
+				title="網站導覽">網站導覽</a>│</li>
+
+		
+
+			<li><a href="https://www.etax.nat.gov.tw/etwmain/front/ETW140W"
+
+				title="客服信箱">客服信箱</a>│</li>
+
+		
+
+			<li><a href="http://service.etax.nat.gov.tw/etwmain/front/rss"
+
+				title="RSS">RSS</a>│</li>
+
+		
+
+			<li><a href="/etwmain?site=en"
+
+				title="ENGLISH">ENGLISH</a>│</li>
+
+		
+
+			<li><a href="http://service.etax.nat.gov.tw/etwmain/mobile"
+
+				title="行動版">行動版</a>│</li>
+
+		
+
+	</ul>
+
+	</div>
+
+
+
+	
+
+		<div class="date"><span>中華民國 103年03月19日 星期三
+
+		更新日期：103年03月19日</span></div>
+
+	
+
+		<div class="visited">訪客人次:338917147</div>
+
+	<!-- header.jsp end -->
+
+<script>
+
+	function addFavorite() {
+
+		var sTitle = "財政部北區國稅局";
+
+		var sUrl = window.location.href;
+
+		if (window.sidebar && window.sidebar.addPanel) {
+
+			addBookmarkForBrowser = function(sTitle, sUrl) {
+
+				window.sidebar.addPanel(sTitle, sUrl, "");
+
+			}
+
+		} else if (window.external) {
+
+			addBookmarkForBrowser = function(sTitle, sUrl) {
+
+				window.external.AddFavorite(sUrl, sTitle);
+
+			}
+
+		}
+
+
+
+		return addBookmarkForBrowser(sTitle, sUrl);
+
+	}
+
+</script>
+
+
+
+
+
+	    </div>
+
+	    <!--Header End--><!--Container Start-->
+
+	    <div class="container clearfix"> 
+
+	        <!--SidebarLeft Start-->
+
+	        <div class="sidebar_left">
+
+	            
+
+<a class="accesskey" href="#" accesskey="L" title="左方選單區">:::</a>
+
+<!--版面類型: F。 更新時間: 2012-07-20 18:15:51.163  -->
+
+		<div class="box02 menu">
+
+		<div class="hd">
+
+		<h2>功能選單</h2>
+
+		</div>
+
+		<div class="bd clearfix">
+
+		<ul>
+
+			<li id="VIEW_383"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/383">電子公佈欄</a></li><li id="VIEW_402"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/402">認識稅務</a></li><li id="VIEW_423"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/423">重大政策</a></li><li id="VIEW_424"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/424">賦稅法規服務</a></li><li id="VIEW_425"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/425">外僑稅務服務</a></li><li id="VIEW_618"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/618">外商參展退稅</a></li><li id="VIEW_21"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/21">  線上申辦</a></li><li id="VIEW_22"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/22">線上查調</a></li><li id="VIEW_23"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/23">線上稅務試算</a></li><li id="VIEW_24"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/24">公示資料查詢</a></li><li id="VIEW_439"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/439">電子申報繳稅服務</a></li><li id="VIEW_440"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/440">書表及檔案下載</a></li><li id="VIEW_433"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/433">網路資源</a></li><li id="VIEW_96"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/96">民意信箱</a></li><li id="VIEW_643"><a href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/643">網站服務</a></li>
+
+		</ul>
+
+		</div>
+
+		<div class="ft"></div>
+
+		</div>
+
+	<!-- sidearleft.jsp end -->
+
+	        </div>
+
+	        <!--SidebarLeft End--><!--SidebarRight Start-->
+
+	        <div class="sidebar_right"><a class="accesskey" href="#" accesskey="C" title="主要內容區">:::</a>
+
+           		<div>
+
+           			
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+
+<!-- contentHeader start -->
+
+$('#contentTitle').html('');
+
+
+
+
+
+</script>
+
+
+
+<!-- contentHeader end -->
+
+           		</div>
+
+           		<div class="content">
+
+					
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<div class="sidebar_right"> <a class="accesskey" href="#" accesskey="C" title="主要內容區"></a>
+	<div class="crumb"><a href="/etwmain" title="回首頁">首頁</a> > 電子公佈欄 > 統一發票中獎號碼</div>
+    <div class="content">
+    	<div class="pagetitle">
+	         <h2 class="title style1" id="contentTitle">統一發票中獎號碼單</h2>
+	    </div>
+		<form id="searchForm" name="searchForm" method="post" >	
+			<table class="table_a" border="0" cellspacing="1" cellpadding="1" summary="Uniform-Invoice Winning Numbers">
+			    <caption class="none">統一發票中獎號碼</caption>
+			    <tr>
+			        <th width="10%" >序號</th>
+			        <th >標題</th>
+			    </tr>
+			    
+			        <tr  > 
+			            <td align="left">1</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=11&endMonth=12" title="連結到102年11-12月期統一發票特別獎及特獎中獎清冊">102年11-12月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">2</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=143c7ba1dc200000fcf1f86d5e576019" title="連結到102年11月、12月">102年11月、12月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">3</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=09&endMonth=10" title="連結到102年09-10月期統一發票特別獎及特獎中獎清冊">102年09-10月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">4</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=1428dda61b3000001a48baa1a571cd85" title="連結到102年09月、10月">102年09月、10月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">5</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=07&endMonth=08" title="連結到102年07-08月期統一發票特別獎及特獎中獎清冊">102年07-08月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">6</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=14153b9359700000bec80d2828fe630f" title="連結到102年07月、08月">102年07月、08月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">7</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=05&endMonth=06" title="連結到102年05-06月期統一發票特別獎及特獎中獎清冊">102年05-06月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">8</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=140146e0f5100000c0b70ec483fa134a" title="連結到102年05月、06月">102年05月、06月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">9</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=03&endMonth=04" title="連結到102年03-04月期統一發票特別獎及特獎中獎清冊">102年03-04月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">10</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=13eda095a7200000aae045953537c573" title="連結到102年03月、04月">102年03月、04月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">11</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=102&startMonth=01&endMonth=02" title="連結到102年01-02月期統一發票特別獎及特獎中獎清冊">102年01-02月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">12</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=13da02f439000000d68cbb68e9351738" title="連結到102年01月、02月">102年01月、02月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">13</td>
+			            <td align="left">
+			            	
+			            		
+			            			<a href="ETW183W3?year=101&startMonth=11&endMonth=12" title="連結到101年11-12月期統一發票特別獎及特獎中獎清冊">101年11-12月期統一發票特別獎及特獎中獎清冊</a>
+			            		
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">14</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=13c705555ae000008b1e384e209a4729" title="連結到101年11月、12月">101年11月、12月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">15</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=13b35fae85900000cf754da23d36fdee" title="連結到101年09月、10月">101年09月、10月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">16</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=13933745d520000053d010e0e7d8575a" title="連結到101年07月、08月">101年07月、08月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">17</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            			<a href="ETW183W2?id=1390f74956700000d6654b6610542697" title="連結到101年05月、06月">101年05月、06月</a>
+			            		
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">18</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            		
+			            			<a href="http://www.ppmof.gov.tw/invoice.asp" target="_blank" title="連結到歷次發票中獎號碼(96年起)(另開視窗)">歷次發票中獎號碼(96年起)(另開視窗)</a>
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr  > 
+			            <td align="left">19</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            		
+			            			<a href="http://www.etax.nat.gov.tw/etwmain/front/ETW183W4" target="" title="連結到統一發票中獎獎金付獎單位一覽表(另開視窗)">統一發票中獎獎金付獎單位一覽表(另開視窗)</a>
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			        <tr class="color" > 
+			            <td align="left">20</td>
+			            <td align="left">
+			            	
+			            		
+			            		
+			            		
+			            			<a href="http://www.etax.nat.gov.tw/etwmain/front/ETW183W5" target="" title="連結到統一發票領獎注意事項(另開視窗)">統一發票領獎注意事項(另開視窗)</a>
+			            		
+			            		
+			            	
+			            </td>
+			        </tr>
+			    
+			</table>	
+			<div align="center">
+				
+
+
+
+
+
+
+
+
+
+
+
+<div class="pageset" id="pagingArea_80" style="display:none;" > 共 <span>
+
+1
+
+</span>頁， <span>20</span>筆資料，您目前在第<span> 1 </span> 頁，要前往<br/>
+
+<label for="page" class="none">換頁</label>
+
+<select id="page" name="page"  onchange="changePage(this.value);">
+
+
+
+<option value="0" selected>1</option>
+
+
+
+</select>
+
+</div>
+
+<script>
+
+$(function() {
+
+    $("#pagingArea_80").show();
+
+});
+
+function changePage(page){
+
+	$('#page').val(page);
+
+	$('#searchForm').submit();
+
+}
+
+</script>
+
+<noscript>
+
+<div class="pageset" > 共 <span>
+
+1
+
+</span>頁， <span>20</span>筆資料，您目前在第<span> 1 </span> 頁，要前往<br/>
+
+
+
+  
+
+  <a href="?page=0" >1</a>
+
+
+
+</div>
+
+</noscript>
+
+
+			</div>
+		</form>
+	</div>
+</div>
+
+				</div>
+
+           		<div>
+
+           			
+
+
+
+
+
+<!-- contentFooter start -->
+
+
+
+<div  class="prgoback"><a href="#" title="回最上方"><img alt="回最上方" src="./image/icon_top.gif"></a></div>
+
+<!-- contentFooter end -->
+
+           		</div>
+
+	       </div>
+
+	        <!--SidebarRight End--> 
+
+	    </div>
+
+	    <!--Container End--><!--Footer Start-->
+
+	    <div class="footer clearfix">
+
+	        
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+.footer .aaa {
+
+	position: absolute;
+
+	top: 40px;
+
+	right: 70px;
+
+}
+
+
+
+.footer .myEgov {
+
+    position: absolute;
+
+    top: 40px;
+
+    right: 10px;
+
+}
+
+
+
+</style>
+
+
+<a class="accesskey" href="#" accesskey="F" title="網頁頁尾資訊區">:::</a>
+
+<ul>
+
+<li>
+
+	  <a class="aaa" target="_blank" title="點選會開啟新視窗" href="http://www.webguide.nat.gov.tw/enable.jsp?category=20130418145933"><img src="./image/img_a.jpg" alt="通過A+等級無障礙網頁檢測"/></a><span class="none">|</span>
+
+
+</li>
+
+<li>
+
+	<a class="myEgov" target="_blank" title="我的e政府" href="http://www.gov.tw/">
+
+	    <img src="./image/gov_03.png" alt="我的e政府"/>
+
+	</a>
+
+</li>
+
+</ul>    
+
+	<a href="http://www.webguide.nat.gov.tw/enable.jsp?category=20130418145933" title="點選會開啟新視窗" target="_blank" class="aaa"><img alt="通過A+等級無障礙網頁檢測" src="./image/img_a.jpg"></a><span class="none">|</span>
+
+<div class="footer_nav">
+
+<a title="連結到隱私權政策" href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/438/8436691953917430727?tagCode=">隱私權政策</a>  
+
+&nbsp;|&nbsp;
+
+<a title="連結到資訊安全政策" href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/438/6743803301400174754?tagCode=">資訊安全政策</a>  
+
+&nbsp;|&nbsp;  
+
+<a title="連結到著作權政策" href="http://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/438/6563248654262849891?tagCode=">著作權政策</a>
+
+ </div>
+
+<div class="copyright"> 
+
+稅務入口網客服專線:0800-080-369&nbsp;
+
+國稅局免付費電話:0800-000-321<br>
+
+地方稅務局免付費電話:0800-086-969 (台北市請改撥1999市民熱線)<br>
+
+財政部財政資訊中心 CopyRight 2013&copy;&nbsp;
+
+最佳瀏覽解析度1024 x 768畫素 
+
+建議使用IE 8.0 或 Firefox 3.5 以上版本瀏覽器
+
+</div>
+
+	    </div>
+
+	    <!--Footer End--> 
+
+	</div>	
+
+  </body>
+
+</html>
