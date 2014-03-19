@@ -101,15 +101,36 @@ ul.listSet {list-style: disc; margin-left: 25px;font:1.3em/140% Arial;letter-spa
 
 table.table_a { border-width:0; width:758px; color:#385b6b; border-color:#dadada; border-style:solid; border-width:1px 0 0 1px; margin:0 0 15px; }
 table.table_a a { color:#385b6b; }
-table.table_a a:hover { color:#fe5f00; }
+table.table_a a:hover { color:#7CFC00; }
+table.table_a .b1 a:hover {color:#FF6347;}
+table.table_a .b2 a:hover {color:#FA8072;}
+table.table_a .b3 a:hover {color:#DB7093;}
+table.table_a .b4 a:hover {color:#385b6b;}
+table.table_a .b5 a:hover {color:#385b6b;}
+table.table_a .b6 a:hover {color:#385b6b;}
+table.table_a .b7 a:hover {color:#385b6b;}
+table.table_a .b8 a:hover {color:#385b6b;}
+table.table_a .b9 a:hover {color:#385b6b;}
+table.table_a .b10 a:hover {color:#385b6b;}
+table.table_a .b11 a:hover {color:#385b6b;}
+table.table_a .b12 a:hover {color:#385b6b;}
+table.table_a .b13 a:hover {color:#385b6b;}
+table.table_a .b14 a:hover {color:#385b6b;}
+table.table_a .b15 a:hover {color:#385b6b;}
+table.table_a .b16 a:hover {color:#385b6b;}
+table.table_a .b17 a:hover {color:#385b6b;}
+table.table_a .b18 a:hover {color:#385b6b;}
+table.table_a .b19 a:hover {color:#385b6b;}
+table.table_a .b20 a:hover {color:#385b6b;}
 table.table_a td, table.table_a th { border-width:0; padding:5px; margin:0 0 10px; border-color:#dadada; border-style:solid; border-width:0 1px 1px 0; }
-table.table_a tr.color { background:#edf2f1; }
+table.table_a tr.color { background:#B0E0E6; }
+table.table_a tr.co{ background:#AFEEEE; }
 table.table_a th { color:#fff; font-weight:bold; text-align:center; background:#42588f;  }
 table.table_b { width: 100%; color:#385b6b; border-color:#dadada; border-style:solid; border-width:1px 0 0 1px; margin:0 0 15px; }
 table.table_b a { color:#385b6b; }
 table.table_b a:hover { color:#fe5f00; }
 table.table_b td, table.table_b th { padding:5px;border-color:#dadada; border-style:solid; border-width:0 1px 1px 0; }
-table.table_b tr.color { background:#fff; }
+table.table_b tr.color { background:#FF0000; }
 table.table_b th {color:#385b6b; font-weight:bold; text-align:center; background:#edf2f1; ; }
 table.table_b input, table.table_b img { vertical-align: middle; }
 table.table_c { width:758px; color:#385b6b; border-color:#dadada; border-style:solid; border-width:1px 0 0 1px; }
